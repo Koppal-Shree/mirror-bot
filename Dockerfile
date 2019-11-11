@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 
 # install ca-certificates so that HTTPS works consistently
 RUN apk add --no-cache ca-certificates
